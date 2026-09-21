@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Ajay Kumar Mehta</title>
+    <style>
+        :root {
+            --primary-color: #1e3a8a;
+            --accent-color: #3b82f6;
+            --bg-color: #f0f9ff;
+            --card-bg: #ffffff;
+            --text-color: #1f2937;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+            padding: 30px;
+            border-top: 6px solid var(--primary-color);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            margin-top: 0;
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1.05rem;
+            margin-bottom: 20px;
+        }
+
+        .favorite-animal {
+            background-color: #e0f2fe;
+            border-left: 4px solid var(--accent-color);
+            padding: 15px 20px;
+            border-radius: 6px;
+            margin-top: 20px;
+        }
+
+        .favorite-animal h2 {
+            margin-top: 0;
+            color: var(--primary-color);
+            font-size: 1.3rem;
+        }
+
+        .elephant-graphic {
+            text-align: center;
+            font-size: 3rem;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Hello! I'm Ajay Kumar Mehta</h1>
+        <p>
+            Welcome to my personal web page! I am a student at Laurea University of Applied Sciences, 
+            studying Business Information Technology. I enjoy working on software development, 
+            building web applications, and learning new technology.
+        </p>
+
+        <div class="favorite-animal">
+            <h2>🐘 My Favourite Animal</h2>
+            <p>
+                My absolute favourite animal is a <strong>Blue Elephant</strong>! 
+                Elephants are intelligent, wise, and gentle giants—and giving them a vibrant blue shade makes them even more unique and creative.
+            <!-- 1.When the user clicks a button, show a message about the elephant. -->
+    <p><button id="animalButton">Click for Elephant </button></p>
+
+
+ <!-- 4.The input event happens every time the value changes.. -->
+
+  <h2>Choose another animal</h2>
+
+    
+
+
+     <!-- 5. Then a small form -->
+
+     <form id="animalForm">
+        <label for="animalInput">Type an animal:</label>
+        <input id="animalInput" type="text" placeholder="Type an animal">
+        <button type="submit">Submit</button>
+     </form>
+
+     <p id="animalOutput"></p>
+
+            </p>
+            <div class="elephant-graphic">
+                🐘💙
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
